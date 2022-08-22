@@ -70,10 +70,10 @@ class Calculator {
   }
 }
 
- const x = new Calculator();
+// const x = new Calculator();
 
 // Add
- console.log(x.add(1, 2)); // 3
+// console.log(x.add(1, 2)); // 3
 
 // Add
 // console.log(x.add(3, -10)); // -7

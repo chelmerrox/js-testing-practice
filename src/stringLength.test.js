@@ -1,4 +1,4 @@
-const stringLength = require('./stringLength');
+const stringLength = require('./stringLength.js');
 
 test('returns the character count of the string', () => {
   const stringA = 'hello';
@@ -9,4 +9,3 @@ test('returns the character count of the string', () => {
   expect(() => stringLength(stringB)).toThrow();
   expect(() => stringLength(stringC)).toThrow();
 });
-

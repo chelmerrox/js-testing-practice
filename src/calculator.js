@@ -1,7 +1,7 @@
 class Calculator {
   constructor(a, b) {
     // this.numbers = numbers; numbers = [];
-    //this.operations = []; operations = [];
+    // this.operations = []; operations = [];
     this.a = a;
     this.b = b;
   }
@@ -13,7 +13,7 @@ class Calculator {
 
     sum = this.a + this.b;
 
-    console.log(typeof(this.a));
+    sum = a + b;
 
     return sum;
   }
@@ -25,6 +25,8 @@ class Calculator {
 
     difference = (this.a) - (this.b);
 
+    difference = (a) - (b);
+
     return difference;
   }
 
@@ -34,6 +36,8 @@ class Calculator {
     // product = this.numbers.reduce((total, e) => total * e );
 
     product = this.a * this.b;
+
+    product = a * b;
 
     return product;
   }
@@ -59,6 +63,8 @@ class Calculator {
     }
 
     quotient = this.a / this.b;
+
+    quotient = a / b;
 
     return quotient;
   }
